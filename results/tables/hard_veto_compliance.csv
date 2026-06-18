@@ -1,0 +1,4 @@
+experiment,experiment_label,hard_veto_count,hard_veto_rejection_count,hard_veto_compliance_rate,source_trace_file,source_trace_key
+test_disagreement,Specialist disagreement,9,9,1.0,results/traces/test_disagreement.jsonl,test_disagreement.pure_mavs_gc.metadata.hard_veto_active
+test_false_positive_trap,False positive trap,36,36,1.0,results/traces/test_false_positive_trap.jsonl,test_false_positive_trap.pure_mavs_gc.metadata.hard_veto_active
+test_mitigation_veto,Mitigation versus hard veto,23,23,1.0,results/traces/test_mitigation_veto.jsonl,test_mitigation_veto.pure_mavs_gc.metadata.hard_veto_active

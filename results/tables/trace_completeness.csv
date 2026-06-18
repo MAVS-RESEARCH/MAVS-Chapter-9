@@ -1,0 +1,13 @@
+experiment,experiment_label,system,system_label,record_count,complete_count,incomplete_count,trace_completeness_rate,missing_field_counts,source_trace_file,source_trace_key
+test_disagreement,Specialist disagreement,mean_ensemble,Mean ensemble,90,90,0,1.0,,results/traces/test_disagreement.jsonl,test_disagreement.mean_ensemble
+test_disagreement,Specialist disagreement,static_weighted_ensemble,Static weighted ensemble,90,90,0,1.0,,results/traces/test_disagreement.jsonl,test_disagreement.static_weighted_ensemble
+test_disagreement,Specialist disagreement,veto_mavs,Veto MAVS,90,90,0,1.0,,results/traces/test_disagreement.jsonl,test_disagreement.veto_mavs
+test_disagreement,Specialist disagreement,pure_mavs_gc,Pure MAVS-GC,90,90,0,1.0,,results/traces/test_disagreement.jsonl,test_disagreement.pure_mavs_gc
+test_false_positive_trap,False positive trap,mean_ensemble,Mean ensemble,120,120,0,1.0,,results/traces/test_false_positive_trap.jsonl,test_false_positive_trap.mean_ensemble
+test_false_positive_trap,False positive trap,static_weighted_ensemble,Static weighted ensemble,120,120,0,1.0,,results/traces/test_false_positive_trap.jsonl,test_false_positive_trap.static_weighted_ensemble
+test_false_positive_trap,False positive trap,veto_mavs,Veto MAVS,120,120,0,1.0,,results/traces/test_false_positive_trap.jsonl,test_false_positive_trap.veto_mavs
+test_false_positive_trap,False positive trap,pure_mavs_gc,Pure MAVS-GC,120,120,0,1.0,,results/traces/test_false_positive_trap.jsonl,test_false_positive_trap.pure_mavs_gc
+test_mitigation_veto,Mitigation versus hard veto,mean_ensemble,Mean ensemble,100,100,0,1.0,,results/traces/test_mitigation_veto.jsonl,test_mitigation_veto.mean_ensemble
+test_mitigation_veto,Mitigation versus hard veto,static_weighted_ensemble,Static weighted ensemble,100,100,0,1.0,,results/traces/test_mitigation_veto.jsonl,test_mitigation_veto.static_weighted_ensemble
+test_mitigation_veto,Mitigation versus hard veto,veto_mavs,Veto MAVS,100,100,0,1.0,,results/traces/test_mitigation_veto.jsonl,test_mitigation_veto.veto_mavs
+test_mitigation_veto,Mitigation versus hard veto,pure_mavs_gc,Pure MAVS-GC,100,100,0,1.0,,results/traces/test_mitigation_veto.jsonl,test_mitigation_veto.pure_mavs_gc

@@ -1,0 +1,276 @@
+{
+  "acceptance_by_disagreement_regime": {
+    "high": {
+      "mean_ensemble": {
+        "acceptance_rate": 0.6333333333333333,
+        "accepted": 19,
+        "count": 30
+      },
+      "pure_mavs_gc": {
+        "acceptance_rate": 0.0,
+        "accepted": 0,
+        "count": 30
+      },
+      "static_weighted_ensemble": {
+        "acceptance_rate": 0.5,
+        "accepted": 15,
+        "count": 30
+      },
+      "veto_mavs": {
+        "acceptance_rate": 0.1,
+        "accepted": 3,
+        "count": 30
+      }
+    },
+    "low": {
+      "mean_ensemble": {
+        "acceptance_rate": 0.6,
+        "accepted": 18,
+        "count": 30
+      },
+      "pure_mavs_gc": {
+        "acceptance_rate": 0.03333333333333333,
+        "accepted": 1,
+        "count": 30
+      },
+      "static_weighted_ensemble": {
+        "acceptance_rate": 0.6666666666666666,
+        "accepted": 20,
+        "count": 30
+      },
+      "veto_mavs": {
+        "acceptance_rate": 0.06666666666666667,
+        "accepted": 2,
+        "count": 30
+      }
+    },
+    "medium": {
+      "mean_ensemble": {
+        "acceptance_rate": 0.5333333333333333,
+        "accepted": 16,
+        "count": 30
+      },
+      "pure_mavs_gc": {
+        "acceptance_rate": 0.0,
+        "accepted": 0,
+        "count": 30
+      },
+      "static_weighted_ensemble": {
+        "acceptance_rate": 0.6333333333333333,
+        "accepted": 19,
+        "count": 30
+      },
+      "veto_mavs": {
+        "acceptance_rate": 0.16666666666666666,
+        "accepted": 5,
+        "count": 30
+      }
+    }
+  },
+  "classification_by_system": {
+    "mean_ensemble": {
+      "accuracy": 0.7111111111111111,
+      "count": 90,
+      "false_negative_count": 11,
+      "false_negative_rate": 0.22448979591836735,
+      "false_positive_count": 15,
+      "false_positive_rate": 0.36585365853658536,
+      "rejection_count": 37,
+      "rejection_rate": 0.4111111111111111,
+      "unsafe_acceptance_count": 15,
+      "unsafe_acceptance_rate": 0.16666666666666666
+    },
+    "pure_mavs_gc": {
+      "accuracy": 0.4666666666666667,
+      "count": 90,
+      "false_negative_count": 48,
+      "false_negative_rate": 0.9795918367346939,
+      "false_positive_count": 0,
+      "false_positive_rate": 0.0,
+      "rejection_count": 89,
+      "rejection_rate": 0.9888888888888889,
+      "unsafe_acceptance_count": 0,
+      "unsafe_acceptance_rate": 0.0
+    },
+    "static_weighted_ensemble": {
+      "accuracy": 0.8333333333333334,
+      "count": 90,
+      "false_negative_count": 5,
+      "false_negative_rate": 0.10204081632653061,
+      "false_positive_count": 10,
+      "false_positive_rate": 0.24390243902439024,
+      "rejection_count": 36,
+      "rejection_rate": 0.4,
+      "unsafe_acceptance_count": 10,
+      "unsafe_acceptance_rate": 0.1111111111111111
+    },
+    "veto_mavs": {
+      "accuracy": 0.4777777777777778,
+      "count": 90,
+      "false_negative_count": 43,
+      "false_negative_rate": 0.8775510204081632,
+      "false_positive_count": 4,
+      "false_positive_rate": 0.0975609756097561,
+      "rejection_count": 80,
+      "rejection_rate": 0.8888888888888888,
+      "unsafe_acceptance_count": 4,
+      "unsafe_acceptance_rate": 0.044444444444444446
+    }
+  },
+  "config": {
+    "count_per_regime": 30,
+    "experiment": "test_disagreement",
+    "regimes": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "seed": 20260618
+  },
+  "experiment": "test_disagreement",
+  "governance_by_system": {
+    "mean_ensemble": {
+      "consensus_distribution": {
+        "count": 0,
+        "max": null,
+        "mean": null,
+        "min": null
+      },
+      "hard_veto_count": 0,
+      "hard_veto_rate": 0.0,
+      "mitigation_distribution": {
+        "count": 0,
+        "max": null,
+        "mean": null,
+        "min": null
+      },
+      "severity_distribution": {
+        "count": 0,
+        "max": null,
+        "mean": null,
+        "min": null
+      },
+      "threshold_distribution": {
+        "count": 0,
+        "max": null,
+        "mean": null,
+        "min": null
+      }
+    },
+    "pure_mavs_gc": {
+      "consensus_distribution": {
+        "count": 90,
+        "max": 2.1767524871085113,
+        "mean": 0.18505083751640458,
+        "min": -2.1225580026156345
+      },
+      "hard_veto_count": 9,
+      "hard_veto_rate": 0.1,
+      "mitigation_distribution": {
+        "count": 90,
+        "max": 0.7565076080849046,
+        "mean": 0.330693340388342,
+        "min": 0.005747133022901536
+      },
+      "severity_distribution": {
+        "count": 90,
+        "max": 3.532670429848058,
+        "mean": 2.6738284217038792,
+        "min": 1.9367507648143707
+      },
+      "threshold_distribution": {
+        "count": 90,
+        "max": 3.527030789347463,
+        "mean": 2.591155086606794,
+        "min": 1.916058348828261
+      }
+    },
+    "static_weighted_ensemble": {
+      "consensus_distribution": {
+        "count": 0,
+        "max": null,
+        "mean": null,
+        "min": null
+      },
+      "hard_veto_count": 0,
+      "hard_veto_rate": 0.0,
+      "mitigation_distribution": {
+        "count": 0,
+        "max": null,
+        "mean": null,
+        "min": null
+      },
+      "severity_distribution": {
+        "count": 0,
+        "max": null,
+        "mean": null,
+        "min": null
+      },
+      "threshold_distribution": {
+        "count": 0,
+        "max": null,
+        "mean": null,
+        "min": null
+      }
+    },
+    "veto_mavs": {
+      "consensus_distribution": {
+        "count": 0,
+        "max": null,
+        "mean": null,
+        "min": null
+      },
+      "hard_veto_count": 0,
+      "hard_veto_rate": 0.0,
+      "mitigation_distribution": {
+        "count": 0,
+        "max": null,
+        "mean": null,
+        "min": null
+      },
+      "severity_distribution": {
+        "count": 0,
+        "max": null,
+        "mean": null,
+        "min": null
+      },
+      "threshold_distribution": {
+        "count": 0,
+        "max": null,
+        "mean": null,
+        "min": null
+      }
+    }
+  },
+  "record_count": 360,
+  "stability_by_system": {
+    "mean_ensemble": {
+      "consensus_stability_index": 0.8715587630703254,
+      "count": 90,
+      "decision_variance": 0.24209876543209877,
+      "score_or_consensus_range": 0.5665852686888676,
+      "score_or_consensus_stddev": 0.14736956631266257
+    },
+    "pure_mavs_gc": {
+      "consensus_stability_index": 0.442118986203835,
+      "count": 90,
+      "decision_variance": 0.010987654320987654,
+      "score_or_consensus_range": 4.299310489724146,
+      "score_or_consensus_stddev": 1.261834554055905
+    },
+    "static_weighted_ensemble": {
+      "consensus_stability_index": 0.8348970818726956,
+      "count": 90,
+      "decision_variance": 0.24,
+      "score_or_consensus_range": 0.6573632627351182,
+      "score_or_consensus_stddev": 0.19775241968384197
+    },
+    "veto_mavs": {
+      "consensus_stability_index": 0.8715587630703254,
+      "count": 90,
+      "decision_variance": 0.09876543209876543,
+      "score_or_consensus_range": 0.5665852686888676,
+      "score_or_consensus_stddev": 0.14736956631266257
+    }
+  }
+}

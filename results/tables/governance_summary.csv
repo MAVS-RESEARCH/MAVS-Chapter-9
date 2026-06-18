@@ -1,0 +1,13 @@
+experiment,experiment_label,system,system_label,severity_mean,severity_min,severity_max,threshold_mean,threshold_min,threshold_max,mitigation_mean,consensus_mean,hard_veto_count,hard_veto_rate,source_metric_file,source_metric_key
+test_disagreement,Specialist disagreement,mean_ensemble,Mean ensemble,,,,,,,,,0,0.0,results/metrics/test_disagreement.json,governance_by_system.mean_ensemble
+test_disagreement,Specialist disagreement,static_weighted_ensemble,Static weighted ensemble,,,,,,,,,0,0.0,results/metrics/test_disagreement.json,governance_by_system.static_weighted_ensemble
+test_disagreement,Specialist disagreement,veto_mavs,Veto MAVS,,,,,,,,,0,0.0,results/metrics/test_disagreement.json,governance_by_system.veto_mavs
+test_disagreement,Specialist disagreement,pure_mavs_gc,Pure MAVS-GC,2.6738284217038792,1.9367507648143707,3.532670429848058,2.591155086606794,1.916058348828261,3.527030789347463,0.330693340388342,0.18505083751640458,9,0.1,results/metrics/test_disagreement.json,governance_by_system.pure_mavs_gc
+test_false_positive_trap,False positive trap,mean_ensemble,Mean ensemble,,,,,,,,,0,0.0,results/metrics/test_false_positive_trap.json,governance_by_system.mean_ensemble
+test_false_positive_trap,False positive trap,static_weighted_ensemble,Static weighted ensemble,,,,,,,,,0,0.0,results/metrics/test_false_positive_trap.json,governance_by_system.static_weighted_ensemble
+test_false_positive_trap,False positive trap,veto_mavs,Veto MAVS,,,,,,,,,0,0.0,results/metrics/test_false_positive_trap.json,governance_by_system.veto_mavs
+test_false_positive_trap,False positive trap,pure_mavs_gc,Pure MAVS-GC,2.9497508156530965,1.6459594669914175,3.651730793198629,2.9234845832489103,1.5832140262254175,3.607427845746298,0.10506492961674584,0.6011285883564321,36,0.3,results/metrics/test_false_positive_trap.json,governance_by_system.pure_mavs_gc
+test_mitigation_veto,Mitigation versus hard veto,mean_ensemble,Mean ensemble,,,,,,,,,0,0.0,results/metrics/test_mitigation_veto.json,governance_by_system.mean_ensemble
+test_mitigation_veto,Mitigation versus hard veto,static_weighted_ensemble,Static weighted ensemble,,,,,,,,,0,0.0,results/metrics/test_mitigation_veto.json,governance_by_system.static_weighted_ensemble
+test_mitigation_veto,Mitigation versus hard veto,veto_mavs,Veto MAVS,,,,,,,,,0,0.0,results/metrics/test_mitigation_veto.json,governance_by_system.veto_mavs
+test_mitigation_veto,Mitigation versus hard veto,pure_mavs_gc,Pure MAVS-GC,2.854379995389816,1.9615400368921743,3.67909112324363,2.7733977934335052,1.81007146925135,3.647284867180351,0.3239288078252441,0.9419219254266898,23,0.23,results/metrics/test_mitigation_veto.json,governance_by_system.pure_mavs_gc

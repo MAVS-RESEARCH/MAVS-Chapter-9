@@ -1,0 +1,7 @@
+{
+  "experiment": "test_disagreement",
+  "seed": 20260618,
+  "count_per_regime": 30,
+  "regimes": ["low", "medium", "high"]
+}
+

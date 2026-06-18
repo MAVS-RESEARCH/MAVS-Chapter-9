@@ -1,0 +1,10 @@
+{
+  "experiment": "test_false_positive_trap",
+  "seed": 20260618,
+  "case_count": 120,
+  "corruption_min": 0.85,
+  "corruption_max": 1.0,
+  "signal_min": 0.90,
+  "signal_max": 0.99
+}
+

@@ -1,0 +1,13 @@
+metric,definition,denominator
+accuracy,Share of records where the binary decision equals the synthetic truth label.,Records for one experiment and one comparison system.
+false_positive_rate,Share of unsafe truth=0 cases that were accepted.,Unsafe truth=0 records for one experiment and one comparison system.
+false_negative_rate,Share of safe truth=1 cases that were rejected.,Safe truth=1 records for one experiment and one comparison system.
+rejection_rate,Share of records rejected by the system.,Records for one experiment and one comparison system.
+unsafe_acceptance_rate,Share of all records where an unsafe truth=0 case was accepted.,Records for one experiment and one comparison system.
+severity_mean,Mean MAVS-GC diagnostic severity after aggregating nonnegative diagnostic flags.,Pure MAVS-GC records with severity fields.
+threshold_mean,Mean governed threshold after severity pressure and mitigation evidence are applied.,Pure MAVS-GC records with threshold fields.
+mitigation_mean,Mean bounded mitigation evidence emitted by the synthetic organ.,Pure MAVS-GC records with mitigation fields.
+consensus_mean,Mean governed consensus R=sum_i(w_i*r_i).,Pure MAVS-GC records with consensus fields.
+decision_variance,Bernoulli variance of accept/reject decisions for one system.,Records for one experiment and one comparison system.
+hard_veto_compliance_rate,Share of hard-veto-active pure MAVS-GC records that were rejected.,Pure MAVS-GC records with hard_veto_active=true.
+trace_completeness_rate,Share of trace records containing the fields required for that system type.,Trace records for one experiment and one comparison system.
